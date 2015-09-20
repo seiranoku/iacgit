@@ -59,38 +59,14 @@
 
 		<p>Content</p>
 
+			<div><iframe id='iframe2' src="http://akademik.unsera.ac.id/pdu/modul/pdu_ceknim.php" frameborder="0" style="overflow: hidden; height: 100%; width: 100%; position: absolute;" height="100%" width="100%"></iframe></div>
 			<p>&nbsp;</p>
-			<p><?php
-$url = "http://akademik.unsera.ac.id/pdu/modul/pdu_ceknim.php";
-$ch = curl_init();
-curl_setopt ($ch, CURLOPT_URL, $url);
-curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 10);
-curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
-$contents = curl_exec($ch);
- if (curl_errno($ch)) {
-  echo curl_error($ch);
-  echo "\n<br />";
-  echo "";
-  echo "\n<br />";
-  echo "\n<hr />";
-  $contents = ''; 
-} else {
-  curl_close($ch);
-}
-
-if (!is_string($contents) || !strlen($contents)) {
-  echo "Gagal Memuat Modul. Mungkin Disebabkan:";
-  echo "\n<br />";
-  echo "- Koneksi Internet Tidak Stabil";
-  echo "\n<br />";
-  echo "- Akses / Traffic Sedang Penuh";
-  echo "\n<br />";
-  echo "- Modul Sedang Update Versi";
-  $contents = '';
-}
-
-echo $contents;
-?></p>
+			  <div id="deviceready" class="blink">
+                <p class="event listening">Connecting to Device</p>
+                <p class="event received">Device is Ready</p>
+                
+            
+      </div>
 			
 			<p></p>
 
