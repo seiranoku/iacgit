@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="esitus" version="1.0.0">
-  <name>eSitus - academic Center</name>
+  <name>eSitus - Academic Center</name>
   <description>Elektronik Sistem Informasi Terpadu UNSERA</description>
   <author href="http://facebook.com/ukon77" email="seiranoku@gmail.com">UKON ZF</author>
   <content src="index.html"/>
