@@ -58,20 +58,14 @@
 		<h2>Page C</h2>
 
 		<p>Content</p>
+		<p></p>
 
-			<div><iframe id='iframe2' src="http://akademik.unsera.ac.id/pdu/modul/pdu_ceknim.php" frameborder="0" style="overflow: hidden; height: 100%; width: 100%; position: absolute;" height="100%" width="100%"></iframe></div>
-			<p>&nbsp;</p>
-			  <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-                
+		  <div><iframe id='iframe2' src="http://akademik.unsera.ac.id/pdu/modul/pdu_ceknim.php" frameborder="0" style="overflow: hidden; height: 100%; width: 100%; position: absolute;" height="100%" width="100%"></iframe></div>
+		
             
       </div>
 			
 			<p></p>
-
-			<a href="#inside-c" class="ui-btn ui-shadow ui-corner-all ui-btn-inline">Open right panel</a>
-
 		</div><!-- /content -->
 
 		<div data-role="footer" data-position="fixed">
